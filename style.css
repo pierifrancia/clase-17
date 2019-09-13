@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    font-size: 22px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.fondo {
+    height: 300px;
+    width: 300px;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(119, 118, 118);
+}
+
+.boton {
+height: 80px;
+width: 170px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 8px 8px 0px rgb(110, 3, 110);
+}
+
+.boton:hover {
+background-color: rgb(110, 3, 110);
+box-shadow: -8px -8px 0px #fff;
+transform: translate(5px, 5px);
+transition: all 0.7s;
+color: rgb(228, 226, 226);
+}
